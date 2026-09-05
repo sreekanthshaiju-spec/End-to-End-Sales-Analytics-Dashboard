@@ -1,21 +1,27 @@
 PYTHON PROJECT 📊 Sales Data Analysis — 5000 Sales Records A simple exploratory data analysis (EDA) project on a global sales dataset of 5,000 transactions, using Python, Pandas, NumPy, Matplotlib, Seaborn, and Plotly.
 
-📁 Dataset File: 
+📁 Dataset File:
+
 5000_Sales_Records_csv.xlsx Contains 5,000 individual sales transactions across 7 regions and 12 product categories, spanning 2010–2017. 
 
 Columns
+
 Region, Country, Item Type, Sales Channel, Order Priority, Order Date, Order ID, Ship Date, Units Sold, Unit Price, Unit Cost, Total Revenue, Total Cost, and Total Profit
 
-🎯 Objective 
+🎯 Objective
+
 Perform exploratory data analysis to understand: Revenue and profit performance across regions, product categories, and channels Relationships between units sold, pricing, and profitability Time trends in revenue (2010–2017) Shipping performance across product types.
 
 🛠️ Tools & Libraries
+
 Python Pandas — data loading, cleaning, grouping NumPy — numeric calculations Matplotlib — static visualizations Seaborn — statistical charts (heatmaps, boxplots, distributions) Plotly Express — interactive charts.
 
-📈 Analysis 
+📈 Analysis
+
 Performed Basic info & missing value checks Descriptive statistics (mean, median, std dev, percentiles) Duplicate record checks Net Profit Margin calculation per transaction Revenue & Profit grouped by Region, Item Type, and Sales Channel Revenue trend by year Correlation heatmap across numeric fields Distribution plots, bar charts, pie charts, boxplots, scatter plots Interactive Plotly bar chart.
 
-🔑 Key Insights 
+🔑 Key Insights
+
 Total Revenue: $6.63 billion | Total Profit: $1.96 billion | Profit Margin: ~29.6% Fruits had the highest units sold (2.34M) but among the lowest revenue/profit — high-volume, low-margin product Household and Office Supplies generated the most revenue; Cosmetics had the strongest margins Unit Price correlates much more strongly with revenue (0.74) than Units Sold does (0.51) — pricing matters more than volume Online vs Offline sales are nearly evenly split (~50/50) Revenue stayed relatively stable year-over-year (2010–2016), with no strong growth trend Average shipping time across all orders: ~22 days.
 
 📌 Conclusion 
