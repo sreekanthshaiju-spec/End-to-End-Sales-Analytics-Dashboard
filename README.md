@@ -1,13 +1,22 @@
 PYTHON PROJECT 📊 Sales Data Analysis — 5000 Sales Records A simple exploratory data analysis (EDA) project on a global sales dataset of 5,000 transactions, using Python, Pandas, NumPy, Matplotlib, Seaborn, and Plotly.
 
-📁 Dataset File: 5000_Sales_Records_csv.xlsx Contains 5,000 individual sales transactions across 7 regions and 12 product categories, spanning 2010–2017. Column Type Description Region Text Broad geographic region Country Text Country where the order was placed Item Type Text Product category Sales Channel Text Online or Offline Order Priority Text L (Low), M (Medium), H (High), C (Critical) Order Date Date Date the order was placed Order ID Number Unique order identifier Ship Date Date Date the order shipped Units Sold Number Quantity sold Unit Price Number ()PriceperunitUnitCostNumber() Cost per unit Total Revenue Number (├)UnitsSold×UnitPriceTotalCostNumber() Units Sold × Unit Cost Total Profit Number ($) Total Revenue − Total Cost No missing values were found in any column.
+📁 Dataset File: 
+5000_Sales_Records_csv.xlsx Contains 5,000 individual sales transactions across 7 regions and 12 product categories, spanning 2010–2017. 
 
-🎯 Objective Perform exploratory data analysis to understand: Revenue and profit performance across regions, product categories, and channels Relationships between units sold, pricing, and profitability Time trends in revenue (2010–2017) Shipping performance across product types.
+Columns
+Region, Country, Item Type, Sales Channel, Order Priority, Order Date, Order ID, Ship Date, Units Sold, Unit Price, Unit Cost, Total Revenue, Total Cost, and Total Profit
 
-🛠️ Tools & Libraries Python Pandas — data loading, cleaning, grouping NumPy — numeric calculations Matplotlib — static visualizations Seaborn — statistical charts (heatmaps, boxplots, distributions) Plotly Express — interactive charts.
+🎯 Objective 
+Perform exploratory data analysis to understand: Revenue and profit performance across regions, product categories, and channels Relationships between units sold, pricing, and profitability Time trends in revenue (2010–2017) Shipping performance across product types.
 
-📈 Analysis Performed Basic info & missing value checks Descriptive statistics (mean, median, std dev, percentiles) Duplicate record checks Net Profit Margin calculation per transaction Revenue & Profit grouped by Region, Item Type, and Sales Channel Revenue trend by year Correlation heatmap across numeric fields Distribution plots, bar charts, pie charts, boxplots, scatter plots Interactive Plotly bar chart.
+🛠️ Tools & Libraries
+Python Pandas — data loading, cleaning, grouping NumPy — numeric calculations Matplotlib — static visualizations Seaborn — statistical charts (heatmaps, boxplots, distributions) Plotly Express — interactive charts.
 
-🔑 Key Insights Total Revenue: $6.63 billion | Total Profit: $1.96 billion | Profit Margin: ~29.6% Fruits had the highest units sold (2.34M) but among the lowest revenue/profit — high-volume, low-margin product Household and Office Supplies generated the most revenue; Cosmetics had the strongest margins Unit Price correlates much more strongly with revenue (0.74) than Units Sold does (0.51) — pricing matters more than volume Online vs Offline sales are nearly evenly split (~50/50) Revenue stayed relatively stable year-over-year (2010–2016), with no strong growth trend Average shipping time across all orders: ~22 days.
+📈 Analysis 
+Performed Basic info & missing value checks Descriptive statistics (mean, median, std dev, percentiles) Duplicate record checks Net Profit Margin calculation per transaction Revenue & Profit grouped by Region, Item Type, and Sales Channel Revenue trend by year Correlation heatmap across numeric fields Distribution plots, bar charts, pie charts, boxplots, scatter plots Interactive Plotly bar chart.
 
-📌 Conclusion This dataset reflects a stable, diversified, but non-scaling business — performance is spread evenly across markets and channels rather than concentrated in a single region or product. Since revenue and cost move almost in lockstep, profitability is driven more by pricing/margin management than by sales volume. The biggest opportunity lies in improving margins on high-revenue, lower-profit categories and understanding why low-margin products continue to receive high sales volume.
+🔑 Key Insights 
+Total Revenue: $6.63 billion | Total Profit: $1.96 billion | Profit Margin: ~29.6% Fruits had the highest units sold (2.34M) but among the lowest revenue/profit — high-volume, low-margin product Household and Office Supplies generated the most revenue; Cosmetics had the strongest margins Unit Price correlates much more strongly with revenue (0.74) than Units Sold does (0.51) — pricing matters more than volume Online vs Offline sales are nearly evenly split (~50/50) Revenue stayed relatively stable year-over-year (2010–2016), with no strong growth trend Average shipping time across all orders: ~22 days.
+
+📌 Conclusion 
+This dataset reflects a stable, diversified, but non-scaling business — performance is spread evenly across markets and channels rather than concentrated in a single region or product. Since revenue and cost move almost in lockstep, profitability is driven more by pricing/margin management than by sales volume. The biggest opportunity lies in improving margins on high-revenue, lower-profit categories and understanding why low-margin products continue to receive high sales volume.
